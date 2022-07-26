@@ -12,25 +12,6 @@
     bottom: 30px;
 }
 
-.navigation-bar>ul>li:nth-child(1) {
-    margin-left: 3rem;
-
-    background: url(../images/user-fill.png);
-    background-size: cover;
-
-    width: 2rem;
-    height: 2rem;
-}
-
-.navigation-bar>ul>li:nth-child(2) {
-    margin-left: 10rem;
-    background: url(../images/chat-blank.png);
-    background-size: cover;
-
-    width: 2rem;
-    height: 2rem;
-}
-
 .navigation-bar>ul>li:nth-child(3) {
     margin-left: 17rem;
     background: url(../images/view-blank.png);
