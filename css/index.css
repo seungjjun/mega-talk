@@ -1,0 +1,96 @@
+.profile {
+    width: 100%;
+    height: 10vh;
+
+    margin: 0 0 0 1rem;
+}
+
+.my-profile {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 1rem;
+}
+
+.profile-img {
+    background: url(../images/avatar.png);
+    background-size: cover;
+
+    width: 6rem;
+    height: 6rem;
+
+    border-radius: 40%;
+}
+
+.freind-profile-img {
+    background: url(../images/avatar.png);
+    background-size: cover;
+
+    width: 4.8rem;
+    height: 4.8rem;
+
+    border-radius: 40%;
+}
+
+.my-profile>a:nth-child(2) {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    margin-left: 15px;
+}
+
+hr {
+    width: 93%;
+
+    border: 0.3px solid #DDDDDD;
+}
+
+.frend-profile {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 50vh;
+}
+
+.frend-profile>span {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 1rem 0 1rem 1rem;
+
+    color: #666666;
+}
+
+.frend-profile>span>img {
+    width: 1.2rem;
+    height: 0.7rem;
+
+    margin: 0.2rem 3rem 0 0;
+}
+
+.frend-profile>section {
+    display: flex;
+
+    width: 100%;
+
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+}
+
+.frend-profile>section>a:nth-child(2) {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    margin-left: 15px;
+}

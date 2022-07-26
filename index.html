@@ -4,63 +4,84 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>메가톡</title>
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <title>메가 톡</title>
     </head>
     <body>
         <header>
             <section class="status-bar">
-                <span>9:00</span>
-                <img src="./images/cellular.png">
-                <img src="./images/wifi.png">
-                <img src="./images/battery.png">
+                <span class="time">9:00</span>
+                <span class="status-icon">
+                    <img src="./images/cellular.png">
+                    <img src="./images/wifi.png">
+                    <img src="./images/battery.png">
+                </span>
             </section>
-            <nav>
+            <aside class="menu-bar">
                 <span>친구</span>
-                <ul>
+                <ul class="menu-icon">
                     <li>
-                        <a>돋보기</a>
+                        <a href="/"></a>
                     </li>
                     <li>
-                        <a>친구</a>
+                        <a href="/"></a>
                     </li>
                     <li>
-                        <a>환경설정</a>
+                        <a href="/"></a>
                     </li>
                 </ul>
-            </nav>
+            </aside>
         </header>
         <main>
             <article class="profile">
                 <section class="my-profile">
+                    <a class="profile-img"></a>
                     <a href="/">조지</a>
-                    <hr>
                 </section>
-                <section class="frend-profile">
-                    <span>친구 3</span>
-                    <a href="/">앨리스</a>
-                    <a href="/">체셔 캣</a>
-                    <a href="/">페페</a>
-                </section>
+                <hr>
+                <div class="frend-profile">
+                    <span>
+                        친구 3 
+                        <img src="./images/chevron-down.png">
+                    </span>
+                    <section>
+                        <a class="freind-profile-img"></a>
+                        <a href="/">앨리스</a>
+                    </section>
+                    <section>
+                        <a class="freind-profile-img"></a>
+                        <a href="/">체셔 캣</a>
+                    </section>
+                    <section>
+                        <a class="freind-profile-img"></a>
+                        <a href="/">페페</a>
+                    </section>
+                </div>
             </article>
         </main>
         <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">친구</a>
-                </li>
-                <li>
-                    <a href="./html/chat.html">채팅</a>
-                </li>
-                <li>
-                    <a href="/">뷰</a>
-                </li>
-                <li>
-                    <a href="/">쇼핑</a>
-                </li>
-                <li>
-                    <a href="/">더보기</a>
-                </li>
-            </ul>
+            <aside class="navigation-bar">
+                <ul>
+                    <li>
+                        <a class="navigation-icon" href="./index.html"></a>
+                    </li>
+                    <li>
+                        <a class="navigation-icon" href="./html/chat.html"></a>
+                    </li>
+                    <li>
+                        <a class="navigation-icon" href="/"></a>
+                    </li>
+                    <li>
+                        <a class="navigation-icon" href="/"></a>
+                    </li>
+                    <li>
+                        <a class="navigation-icon" href="/"></a>
+                    </li>
+                </ul>
+            </aside>
         </nav>
     </body>
 </html>
