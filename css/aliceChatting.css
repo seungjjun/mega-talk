@@ -1,10 +1,13 @@
 * {
     background-color: #B1BFCC;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .chatting {
     width: 100vw;
-    height: 121vw;
+    height: 75vh;
 
     min-width: 360px;
     max-width: 600px;
@@ -97,7 +100,7 @@
     flex-direction: row;
 
     width: 100vw;
-    height: 8.2vh;
+    height: 10vh;
 
     min-width: 360px;
     max-width: 600px;
