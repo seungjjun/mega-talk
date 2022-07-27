@@ -1,0 +1,152 @@
+* {
+    background-color: #B1BFCC;
+}
+
+.chatting {
+    width: 100vw;
+    height: 121vw;
+
+    min-width: 360px;
+    max-width: 600px;
+}
+
+.chatting>ul>li {
+    display: flex;
+    flex-direction: row;
+
+    margin: 1vw 0 0 5vw;
+}
+
+.profile-img {
+    display: flex;
+    background: url(../images/avatar.png);
+    background-size: cover;
+
+    width: 10vw;
+    height: 10vw;
+
+    border-radius: 4vw;
+}
+
+.chatiing-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+
+.chatiing-box>span {
+    font-size: 3.5vw;
+    color: #666666;
+}
+
+.speech-bubble1 {
+    display: flex;
+
+    font-size: 4vw;
+    width: 67vw;
+    height: 17vw;
+
+    padding: 2vw 0 0 3vw;
+
+    margin-top: 2vw;
+
+    border-radius: 5vw;
+
+    background-color: white;
+}
+
+.speech-bubble1>p {
+    width: 10vw;
+    height: 10vw;
+}
+
+.time1 {
+    margin: 18vw 0 0 2vw;
+
+    color: #666666;
+}
+
+.chatting>ul>li:nth-child(2) {
+    margin-top: 6vw;
+}
+
+.speech-bubble2 {
+    display: flex;
+
+    font-size: 4vw;
+    width: 30vw;
+    height: 10vw;
+
+    padding: 2vw 0 0 3vw;
+
+    margin-top: 2vw;
+
+    border-radius: 5vw;
+
+    background-color: white;
+}
+
+.time2 {
+    margin: 12vw 0 0 2vw;
+
+    color: #666666;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 8.2vh;
+
+    min-width: 360px;
+    max-width: 600px;
+
+    background-color: white;
+}
+
+.plus-icon {
+    background: url(../images/plus.png);
+    background-size: cover;
+
+    width: 6vw;
+    height: 6vw;
+
+    margin: 3vw 0 0 3vw;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 9vw;
+
+    margin: 3vw 0 0 4vw;
+
+    background-color: #F9F8F8;
+
+    border: 1px solid #B1BFCC;
+    border-radius: 2vw;
+
+}
+
+.emoji-icon {
+    background: url(../images/emoji.png);
+    background-size: cover;
+
+    width: 5vw;
+    height: 5vw;
+
+    margin: 2vw 0 0 66vw;
+}
+
+.enter-icon {
+    background: url(../images/enter.png);
+    background-size: cover;
+
+    width: 5vw;
+    height: 5vw;
+
+    margin: 2vw 0 0 2vw;
+}

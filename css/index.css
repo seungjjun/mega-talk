@@ -2,6 +2,9 @@
     width: 100%;
     height: 10vh;
 
+    min-width: 360px;
+    max-width: 600px;
+
     margin: 0 0 0 1rem;
 }
 
@@ -16,8 +19,8 @@
     background: url(../images/avatar.png);
     background-size: cover;
 
-    width: 6rem;
-    height: 6rem;
+    width: 17vw;
+    height: 17vw;
 
     border-radius: 40%;
 }
@@ -26,8 +29,8 @@
     background: url(../images/avatar.png);
     background-size: cover;
 
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 14vw;
+    height: 14vw;
 
     border-radius: 40%;
 }
@@ -96,20 +99,20 @@ hr {
 }
 
 .navigation-bar>ul>li:nth-child(1) {
-    margin-left: 3rem;
+    margin-left: 11vw;
 
     background: url(../images/user-fill.png);
     background-size: cover;
 
-    width: 2rem;
-    height: 2rem;
+    width: 5vw;
+    height: 5vw;
 }
 
 .navigation-bar>ul>li:nth-child(2) {
-    margin-left: 10rem;
+    margin-left: 27vw;
     background: url(../images/chat-blank.png);
     background-size: cover;
 
-    width: 2rem;
-    height: 2rem;
+    width: 5vw;
+    height: 5vw;
 }
