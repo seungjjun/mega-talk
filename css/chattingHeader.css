@@ -9,7 +9,7 @@
 }
 
 .time {
-    font-size: 1.5rem;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -36,8 +36,12 @@ img {
     margin: 6vw 0 0 4vw;
 }
 
-.menu-bar>span {
-    font-size: 2.5rem;
+.name {
+    font-size: 6vw;
+
+    font-weight: 400;
+
+    margin-right: 26vw;
 }
 
 .menu-icon {
@@ -49,6 +53,25 @@ img {
 }
 
 .menu-icon>li:nth-child(1) {
+    display: flex;
+
+}
+
+.back-box>div {
+    display: flex;
+    background: url(../images/chevron-left-black.png);
+    background-size: cover;
+
+
+    width: 5vw;
+    height: 5vw;
+
+    margin-right: 28vw;
+
+
+}
+
+.menu-icon>li:nth-child(3) {
     background: url(../images/search.png);
     background-size: cover;
 
@@ -58,18 +81,8 @@ img {
     margin-right: 5vw;
 }
 
-.menu-icon>li:nth-child(2) {
-    background: url(../images/user-blank.png);
-    background-size: cover;
-
-    width: 5vw;
-    height: 5vw;
-
-    margin-right: 5vw;
-}
-
-.menu-icon>li:nth-child(3) {
-    background: url(../images/settings.png);
+.menu-icon>li:nth-child(4) {
+    background: url(../images/hamburger.png);
     background-size: cover;
 
     width: 5vw;

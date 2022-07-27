@@ -1,58 +1,65 @@
 .chatting-list {
     width: 100vw;
     height: 70vh;
+
+    min-width: 360px;
+    max-width: 600px;
 }
 
 section {
     display: flex;
 
-    margin-left: 1rem;
+    margin-left: 3vw;
 }
 
 section>a {
-    width: 100%;
-    height: 9vh;
+    display: flex;
+    flex-direction: row;
 
-    margin-bottom: 1rem;
+    width: 10vw;
+    height: 15vw;
+
+    margin-bottom: 2.5vw;
 }
 
 .chat-box {
     display: flex;
-    flex-direction: row;
 }
 
 .chat-img {
+    display: flex;
     background: url(../images/avatar.png);
     background-size: cover;
 
-    width: 8rem;
-    height: 5rem;
+    width: 14vw;
+    height: 13vw;
 
     border-radius: 40%;
-
-    margin-bottom: 1rem;
 }
 
 .chat-box>h2 {
     position: relative;
-    width: 20vw;
+    width: 11vw;
+    height: 2vw;
 
-    font-size: 1.5em;
+    font-size: 3.8vw;
     font-weight: 600;
-    /* margin-left: 1rem; */
-    /* margin: 0 auto; */
-    left: 15px;
+
+    left: 5vw;
 }
 
 .chat-box>p {
     position: relative;
 
-    font-size: 1.2rem;
+    font-size: 3.3vw;
 
-    top: 2rem;
-    right: 3.4rem;
+    top: 6vw;
+    right: 6vw;
 
-    width: 100%;
+    width: 54vw;
+    height: 8vw;
+
+    overflow: hidden;
 
     color: #999999;
 }
@@ -60,30 +67,30 @@ section>a {
 .chat-box>time {
     position: relative;
 
-    width: 15vh;
+    width: 20vw;
 
-    right: 35px;
-    top: 35px;
+    right: 3vw;
+    top: 6vw;
 
     color: #999999;
 }
 
 
 .navigation-bar>ul>li:nth-child(1) {
-    margin-left: 3rem;
+    margin-left: 11vw;
 
     background: url(../images/user-blank.png);
     background-size: cover;
 
-    width: 2rem;
-    height: 2rem;
+    width: 5vw;
+    height: 5vw;
 }
 
 .navigation-bar>ul>li:nth-child(2) {
-    margin-left: 10rem;
+    margin-left: 27vw;
     background: url(../images/chat-fill.png);
     background-size: cover;
 
-    width: 2rem;
-    height: 2rem;
+    width: 5vw;
+    height: 5vw;
 }
