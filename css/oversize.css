@@ -1,0 +1,40 @@
+#oversize {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    height: 100%;
+    width: 100vw;
+
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+
+    z-index: 1;
+
+    background-color: #FAE053;
+}
+
+.logo-img {
+    background: url(../images/logo.png);
+    background-size: cover;
+
+    width: 70px;
+    height: 70px;
+
+    margin-bottom: 3vw;
+}
+
+#oversize>p {
+    font-size: 30px;
+    color: #357363;
+
+    background-color: #FAE053;
+}
+
+@media screen and (max-width:600px) {
+    #oversize {
+        display: none;
+    }
+}
